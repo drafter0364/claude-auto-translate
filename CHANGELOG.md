@@ -1,5 +1,15 @@
 # Changelog
 
+## 2.0.0
+- Refactored: abstracted the translation engine into a pluggable provider
+  interface. Now supports **DeepL**, **Google Translate**, and **Microsoft
+  Translator** — switch between them via a visual settings panel.
+- Added: a floating settings panel (open via Tampermonkey menu or right-click
+  the toggle button) for choosing a provider and configuring API keys.
+- Updated: the toggle button now displays the active provider name
+  (e.g. `🌐 Google Translate: ON`).
+- Removed: the old `Set DeepL API Key` prompt — replaced by the settings panel.
+
 ## 1.2.0
 - Fixed: DeepL deprecated the legacy `auth_key` form-body parameter
   (November 2025). The API key is now sent via an `Authorization` header
