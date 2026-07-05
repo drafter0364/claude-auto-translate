@@ -3,7 +3,7 @@
 // @namespace    https://claude.ai/
 // @version      1.2.0
 // @description  Translates whatever you type into Claude.ai's chat box into English (via DeepL) before sending, with a preview/confirm step.
-// @author       you
+// @author       drafter0364
 // @match        https://claude.ai/*
 // @grant        GM_xmlhttpRequest
 // @grant        GM_setValue
